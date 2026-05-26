@@ -15,6 +15,6 @@ class CleanUpFile:
             exc_type: type,
             exc_val: Exception,
             exc_tb: object
-    )-> None:
+    ) -> None:
         self.file.close()
         os.remove(self.filename)
